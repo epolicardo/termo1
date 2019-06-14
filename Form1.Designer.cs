@@ -283,7 +283,7 @@
             0});
             this.numericUpDown2.Location = new System.Drawing.Point(216, 46);
             this.numericUpDown2.Maximum = new decimal(new int[] {
-            90,
+            85,
             0,
             0,
             0});
