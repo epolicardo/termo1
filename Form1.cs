@@ -19,7 +19,7 @@ namespace Termo
             // frm2.ShowDialog();
 
             DialogResult result;
-            result = MessageBox.Show("Ajustar nivel y temperatura?", "Nivel/Temperatura", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            result = MessageBox.Show("Ajustar nivel y temperatura?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
 
 
             if (result == DialogResult.OK)
