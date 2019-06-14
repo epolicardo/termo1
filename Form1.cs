@@ -9,6 +9,8 @@ namespace Termo
         public Form1()
         {
             InitializeComponent();
+
+            button1.Enabled = false;
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -82,10 +84,10 @@ namespace Termo
                 if (numTemp > 65 && numTemp <= 90)
                 { this.animationTermo.ImageIndex = 4; }
 
+                ///////////////////////////////////////////////
 
                 if (numLitros == 250)
                 { this.animationTanque.ImageIndex = 3; }
-
 
             }
             if (result == DialogResult.Cancel)
@@ -97,6 +99,8 @@ namespace Termo
         private void Button2_Click(object sender, EventArgs e)
 
         {
+            button1.Enabled=true;
+
             Random rnd = new Random();
 
             int temperatura = rnd.Next(-10, 90);
@@ -105,21 +109,21 @@ namespace Termo
             int litros = rnd.Next(0, 250);
             this.label1.Text = Convert.ToString(litros);
 
-
-
-            if (litros >= 0 && litros < 62)
+            //////////////////////////////////////////////////
+          
+            if (litros >= 0 && litros < 25)
             { this.animationTanque.ImageIndex = 0; }
 
-            if (litros > 62 && litros < 125)
+            if (litros > 25 && litros < 100)
             { this.animationTanque.ImageIndex = 1; }
 
-            if (litros > 125 && litros < 187)
+            if (litros > 100 && litros < 200)
             { this.animationTanque.ImageIndex = 2; }
 
-            if (litros > 187 && litros <= 250)
+            if (litros > 200 && litros <= 250)
             { this.animationTanque.ImageIndex = 3; }
 
-            /////////////////////////////////////////////
+            ////////////////////////////////////////////////
 
             if (temperatura >= -10 && temperatura < 25)
             { this.animationTermo.ImageIndex = 1; }
