@@ -26,6 +26,11 @@ namespace Termo
 
             if (result == DialogResult.OK)
             {
+                //Ajustando ajuste = new Ajustando();
+                //ajuste.ShowDialog();
+                Form2 form2 = new Form2();
+                form2.ShowDialog();
+
                 decimal temperaturaDeseo = this.numericUpDown2.Value;
                 string temperatura = this.label3.Text;
                 string litros = this.label1.Text;
