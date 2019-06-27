@@ -60,7 +60,6 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.animationTermo = new System.Windows.Forms.Label();
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
-            this.temp = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -470,16 +469,6 @@
             this.imageList2.Images.SetKeyName(3, "tmedio.png");
             this.imageList2.Images.SetKeyName(4, "talto.png");
             // 
-            // temp
-            // 
-            this.temp.AutoSize = true;
-            this.temp.Location = new System.Drawing.Point(767, 25);
-            this.temp.Name = "temp";
-            this.temp.Size = new System.Drawing.Size(35, 13);
-            this.temp.TabIndex = 35;
-            this.temp.Text = "label2";
-            this.temp.Visible = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -487,7 +476,6 @@
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(834, 357);
-            this.Controls.Add(this.temp);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.groupBox2);
@@ -552,7 +540,6 @@
         private System.Windows.Forms.Label animationTanque;
         private System.Windows.Forms.Label animationTermo;
         private System.Windows.Forms.ImageList imageList2;
-        public System.Windows.Forms.Label temp;
     }
 }
 

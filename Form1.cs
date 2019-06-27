@@ -20,11 +20,11 @@ namespace Termo
             // Form2 frm2 = new Form2();
             // frm2.ShowDialog();
 
-            DialogResult result;
-            result = MessageBox.Show("Ajustar nivel y temperatura?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            //DialogResult result;
+            //result = MessageBox.Show("Ajustar nivel y temperatura?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
 
 
-            if (result == DialogResult.OK)
+            //if (result == DialogResult.OK)
             {
                 //Ajustando ajuste = new Ajustando();
                 //ajuste.ShowDialog();
@@ -95,8 +95,8 @@ namespace Termo
                 { this.animationTanque.ImageIndex = 3; }
 
             }
-            if (result == DialogResult.Cancel)
-            { }
+            //if (result == DialogResult.Cancel)
+            //{ }
 
 
         }
